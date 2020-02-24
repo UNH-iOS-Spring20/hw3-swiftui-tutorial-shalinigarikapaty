@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		4663826D240373B300A55CD4 /* CustomImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4663826C240373B300A55CD4 /* CustomImageView.swift */; };
 		4663826F2403745100A55CD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4663826E2403745100A55CD4 /* Assets.xcassets */; };
+		46638271240376C900A55CD4 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46638270240376C900A55CD4 /* MapView.swift */; };
 		4680ED6724034D020042EA2E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4680ED6624034D020042EA2E /* AppDelegate.swift */; };
 		4680ED6924034D020042EA2E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4680ED6824034D020042EA2E /* SceneDelegate.swift */; };
 		4680ED6B24034D020042EA2E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4680ED6A24034D020042EA2E /* ContentView.swift */; };
@@ -38,6 +39,7 @@
 /* Begin PBXFileReference section */
 		4663826C240373B300A55CD4 /* CustomImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomImageView.swift; sourceTree = "<group>"; };
 		4663826E2403745100A55CD4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../../../../Downloads/AppIcons-3/Assets.xcassets"; sourceTree = "<group>"; };
+		46638270240376C900A55CD4 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		4680ED6324034D020042EA2E /* Apple-documentation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Apple-documentation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4680ED6624034D020042EA2E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4680ED6824034D020042EA2E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 			children = (
 				4680ED6A24034D020042EA2E /* ContentView.swift */,
 				4663826C240373B300A55CD4 /* CustomImageView.swift */,
+				46638270240376C900A55CD4 /* MapView.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -280,6 +283,7 @@
 			files = (
 				4680ED6724034D020042EA2E /* AppDelegate.swift in Sources */,
 				4663826D240373B300A55CD4 /* CustomImageView.swift in Sources */,
+				46638271240376C900A55CD4 /* MapView.swift in Sources */,
 				4680ED6924034D020042EA2E /* SceneDelegate.swift in Sources */,
 				4680ED6B24034D020042EA2E /* ContentView.swift in Sources */,
 			);

@@ -10,6 +10,18 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
+        VStack {
+             // MARK:- Map View
+            MapView()
+                .edgesIgnoringSafeArea(.top)
+                .frame(height:300)
+            // MARK:- IMAGE
+            
+        CustomImageView()
+                .offset(y: -130)
+                .padding(.bottom, -130)
+            
+            
         VStack(alignment: .leading) {
             Text("Turtle Rock")
                 .font(.title)
@@ -27,7 +39,10 @@ struct ContentView: View {
             
         }
         .padding()
+        
+        Spacer()
     }
+}
 }
 
 struct ContentView_Previews: PreviewProvider {
