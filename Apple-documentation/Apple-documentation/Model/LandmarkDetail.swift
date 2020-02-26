@@ -9,18 +9,19 @@
 import SwiftUI
 
 struct LandmarkDetail: View {
+    var landmark:Landmark
     var body: some View {
         
         VStack {
              // MARK:- Map View
-          MapView()
+          MapView(coordinate: landmark.locationCoordinate)
                 .edgesIgnoringSafeArea(.top)
-                .frame(height:300)
+                .frame(height: 300)
             
             
             // MARK:- IMAGE
             
-        CircleImage()
+            CircleImage(image:Image("Turtle Rock"))
                 .offset(y: -130)
                 .padding(.bottom, -130)
             
@@ -45,11 +46,13 @@ struct LandmarkDetail: View {
         
         Spacer()
     }
+        .navigationBarTitle(Text(landmark.name), displayMode: .inline)
+        
 }
 }
 
 struct LandmarkDetail_Previews: PreviewProvider {
     static var previews: some View {
-        LandmarkDetail()
+        LandmarkDetail(landmark: landmarkData[0])
     }
 }

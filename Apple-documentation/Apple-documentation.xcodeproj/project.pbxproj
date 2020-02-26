@@ -22,7 +22,7 @@
 		463974852406B89A00EE78F7 /* chilkoottrail.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 463974782406B89A00EE78F7 /* chilkoottrail.jpg */; };
 		463974862406B89A00EE78F7 /* rainbowlake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 463974792406B89A00EE78F7 /* rainbowlake.jpg */; };
 		463974882406B9C500EE78F7 /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463974872406B9C500EE78F7 /* LandmarkRow.swift */; };
-		4639748E2406BCE600EE78F7 /* Apple_documentationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4680ED7D24034D060042EA2E /* Apple_documentationTests.swift */; };
+		463974902406C1D500EE78F7 /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4639748F2406C1D500EE78F7 /* LandmarkList.swift */; };
 		4663826D240373B300A55CD4 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4663826C240373B300A55CD4 /* CircleImage.swift */; };
 		4663826F2403745100A55CD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4663826E2403745100A55CD4 /* Assets.xcassets */; };
 		46638271240376C900A55CD4 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46638270240376C900A55CD4 /* MapView.swift */; };
@@ -33,6 +33,7 @@
 		4680ED7024034D060042EA2E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4680ED6F24034D060042EA2E /* Preview Assets.xcassets */; };
 		4680ED7324034D060042EA2E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4680ED7124034D060042EA2E /* LaunchScreen.storyboard */; };
 		4680ED8924034D060042EA2E /* Apple_documentationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4680ED8824034D060042EA2E /* Apple_documentationUITests.swift */; };
+		46B00E862406FA0E008CBE32 /* Apple_documentationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4680ED7D24034D060042EA2E /* Apple_documentationTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +69,7 @@
 		463974782406B89A00EE78F7 /* chilkoottrail.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = chilkoottrail.jpg; sourceTree = "<group>"; };
 		463974792406B89A00EE78F7 /* rainbowlake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rainbowlake.jpg; sourceTree = "<group>"; };
 		463974872406B9C500EE78F7 /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
+		4639748F2406C1D500EE78F7 /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
 		4663826C240373B300A55CD4 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		4663826E2403745100A55CD4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../../../../Downloads/AppIcons-3/Assets.xcassets"; sourceTree = "<group>"; };
 		46638270240376C900A55CD4 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
@@ -141,6 +143,7 @@
 				4663827424038B8700A55CD4 /* Landmark.swift */,
 				4639746A2406B58100EE78F7 /* Data.swift */,
 				463974872406B9C500EE78F7 /* LandmarkRow.swift */,
+				4639748F2406C1D500EE78F7 /* LandmarkList.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -354,6 +357,7 @@
 				4680ED6724034D020042EA2E /* AppDelegate.swift in Sources */,
 				4663826D240373B300A55CD4 /* CircleImage.swift in Sources */,
 				46638271240376C900A55CD4 /* MapView.swift in Sources */,
+				463974902406C1D500EE78F7 /* LandmarkList.swift in Sources */,
 				4680ED6924034D020042EA2E /* SceneDelegate.swift in Sources */,
 				4680ED6B24034D020042EA2E /* LandmarkDetail.swift in Sources */,
 				463974882406B9C500EE78F7 /* LandmarkRow.swift in Sources */,
@@ -365,7 +369,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4639748E2406BCE600EE78F7 /* Apple_documentationTests.swift in Sources */,
+				46B00E862406FA0E008CBE32 /* Apple_documentationTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
