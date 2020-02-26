@@ -8,16 +8,19 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct LandmarkDetail: View {
     var body: some View {
+        
         VStack {
              // MARK:- Map View
-            MapView()
+          MapView()
                 .edgesIgnoringSafeArea(.top)
                 .frame(height:300)
+            
+            
             // MARK:- IMAGE
             
-        CustomImageView()
+        CircleImage()
                 .offset(y: -130)
                 .padding(.bottom, -130)
             
@@ -45,8 +48,8 @@ struct ContentView: View {
 }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct LandmarkDetail_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        LandmarkDetail()
     }
 }

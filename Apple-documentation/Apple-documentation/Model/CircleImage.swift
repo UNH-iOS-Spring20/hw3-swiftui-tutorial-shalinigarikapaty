@@ -8,7 +8,7 @@
 
 import SwiftUI
 
-struct CustomImageView: View {
+struct CircleImage: View {
     var body: some View {
         Image("turtlerock")
         .clipShape(Circle())
@@ -18,8 +18,8 @@ struct CustomImageView: View {
     }
 }
 
-struct CustomImageView_Previews: PreviewProvider {
+struct CircleImage_Previews: PreviewProvider {
     static var previews: some View {
-        CustomImageView()
+        CircleImage()
     }
 }
