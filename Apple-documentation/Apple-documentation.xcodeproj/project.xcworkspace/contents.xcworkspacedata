@@ -1,7 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Workspace
    version = "1.0">
+   <Group
+      location = "group:/Users/shalinigarikapaty/Desktop/IOS/hw3-swiftui-tutorial-shalinigarikapaty/Apple-documentation/Apple-documentation/Preview Content/Resources"
+      name = "Resources">
+      <FileRef
+         location = "group:charleyrivers.jpg">
+      </FileRef>
+      <FileRef
+         location = "group:turtlerock.jpg">
+      </FileRef>
+      <FileRef
+         location = "group:silversalmoncreek.jpg">
+      </FileRef>
+      <FileRef
+         location = "group:icybay.jpg">
+      </FileRef>
+      <FileRef
+         location = "group:lakemcdonald.jpg">
+      </FileRef>
+      <FileRef
+         location = "group:hiddenlake.jpg">
+      </FileRef>
+      <FileRef
+         location = "group:twinlake.jpg">
+      </FileRef>
+      <FileRef
+         location = "group:umbagog.jpg">
+      </FileRef>
+      <FileRef
+         location = "group:landmarkData.json">
+      </FileRef>
+      <FileRef
+         location = "group:chincoteague.jpg">
+      </FileRef>
+      <FileRef
+         location = "group:stmarylake.jpg">
+      </FileRef>
+      <FileRef
+         location = "group:chilkoottrail.jpg">
+      </FileRef>
+      <FileRef
+         location = "group:rainbowlake.jpg">
+      </FileRef>
+   </Group>
    <FileRef
-      location = "self:Apple-documentation.xcodeproj">
+      location = "self:">
    </FileRef>
 </Workspace>

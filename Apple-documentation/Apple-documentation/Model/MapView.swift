@@ -9,7 +9,7 @@
 import SwiftUI
 import MapKit
 
-
+//MARK:- Protocol
 struct MapView: UIViewRepresentable {
        var coordinate: CLLocationCoordinate2D
 

@@ -1,10 +1,9 @@
-//
-//  Data.swift
-//  Apple-documentation
-//
-//  Created by Shalu Garikapaty on 2/26/20.
-//  Copyright © 2020 Shalini Garikapaty. All rights reserved.
-//
+/*
+See LICENSE folder for this sample’s licensing information.
+
+Abstract:
+Helpers for loading images and data.
+*/
 
 import UIKit
 import SwiftUI
@@ -66,4 +65,3 @@ final class ImageStore {
         return images.index(forKey: name)!
     }
 }
-
